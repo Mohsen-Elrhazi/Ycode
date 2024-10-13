@@ -244,20 +244,19 @@ h2 {
 
 /* !contact */
 .contain {
-   width: 60%;
-   margin: auto;
+   width: 56%;
+   margin: 80px auto;
+   padding-bottom: 50px;
    background-color: #FFF;
+   border-radius: 26px;
+   box-shadow: 0px 0px 22px 2px rgba(44, 43, 43, 0.2);
+   display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    text-align: center;
-   height: auto;
-   border-radius: 26px;
-   box-shadow: 0px 0px 18px 0px rgba(88, 63, 63, 0.2);
-   margin-top: 60px;
-   padding-bottom: 20px;
    box-sizing: border-box;
    overflow: hidden;
-   backdrop-filter: blur(15px);
 }
 
 .items {
@@ -298,14 +297,14 @@ input[type="submit"] {
    width: 430px;
    border: none;
    border-radius: 12px;
-   border: 1.5px solid #e34444;
+   border: 1.8px solid #e34444;
    background-color: transparent;
    color: #e34444;
    padding: 10px;
-   font-size: 17px;
+   font-size: 19px;
    transition: all 0.1s .1s linear;
    cursor: pointer;
-   margin-top: 14px;
+   margin-top: 20px;
    margin-bottom: 14px;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -355,6 +354,7 @@ p.intro-des {
    font-size: 20px;
    line-height: 35px;
    margin-top: 18px;
+   margin-bottom:28px;
 }
 
 p.intro-des a {
@@ -369,10 +369,10 @@ p.intro-des span {
 .btn-find-us,
 .btn-read-more {
    display: inline-block;
-   width: 240px;
+   width: 260px;
    /* Ajustement de la largeur pour ne pas dépasser */
    border-radius: 10px;
-   border: 1.5px solid #e34444;
+   border: 1.8px solid #e34444;
    background-color: transparent;
    padding: 10px;
    text-transform: uppercase;
