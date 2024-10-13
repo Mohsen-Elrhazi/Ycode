@@ -211,7 +211,8 @@ h2 {
 
 /* ! end que nous sommes */
 .rules,
-.strategys {
+.strategys,
+.classmates {
    margin: 22px auto 0px;
    /* Centre horizontalement */
    width: 90%;
@@ -232,9 +233,13 @@ h2 {
 }
 
 .rules h2,
-.strategys h2 {
-   color: #e34444;
+.strategys h2,
+.classmates h2 {
+   color: #e34444 !important;
    margin: 0;
+}
+.classmates{
+   margin-bottom:16px !important;
 }
 
 /* !contact */
@@ -275,10 +280,11 @@ input[type="textarea"] {
    transition: all .4s ease-in;
 }
 
-.items h2 {
+.contain .items h2 {
    font-weight: bold;
    font-size: 30px;
    padding: 14px;
+   color:#e34444;
 }
 
 input[type="text"]:focus,
@@ -330,7 +336,7 @@ a {
 }
 
 /* ! intro */
-h2 {
+ #intro .section-container h2 {
    /* font-size: 100px; */
    position: relative;
    color: #5b85c0;
