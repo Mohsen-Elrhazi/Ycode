@@ -230,6 +230,7 @@ h2 {
    text-align: center;
    /* Centre le texte à l'intérieur du conteneur */
    font-family: sans-serif;
+   text-transform: uppercase;
 }
 
 .rules h2,
@@ -364,6 +365,7 @@ p.intro-des a {
 p.intro-des span {
    font-size: 15px;
 }
+
 
 /*! Style pour les boutons */
 .btn-find-us,
